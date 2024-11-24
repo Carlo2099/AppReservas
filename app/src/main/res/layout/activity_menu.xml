@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_Boton"
+        android:alpha="0.7"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMEI SPORT"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="25dp"
+            android:drawableLeft="@drawable/baseline_sports_basketball_24"/>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="28dp"
+        android:layout_marginBottom="-20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="22dp">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido"
+                android:textColor="@color/color_Boton"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/nombresYApellidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nombre"
+                android:textColor="@color/color_Boton"
+                android:textSize="14sp"
+                android:alpha="0.3"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="seleccione la acción a realizar hoy"
+                android:textSize="14sp"
+                android:alpha="0.7"/>
+            <Button
+                android:id="@+id/btnReservarCampo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Reservar campo"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/color_Boton"
+                android:drawableLeft="@drawable/agregar"/>
+            <Button
+                android:id="@+id/listaReservas"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Ultima Reservas"
+                android:backgroundTint="@color/color_Boton"
+                android:drawableLeft="@drawable/citas"/>
+            <Button
+                android:id="@+id/Mapa"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Maps"
+                android:backgroundTint="@color/color_Boton"
+                android:drawableLeft="@drawable/baseline_edit_location_alt_24"/>
+            <Button
+                android:id="@+id/btnCerrarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Cerrar sesion"
+
+                android:backgroundTint="@color/color_Boton"
+                android:drawableLeft="@drawable/salir"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

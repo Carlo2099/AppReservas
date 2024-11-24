@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ReservasIMEI</string>
+    <string-array name="mediosDePago">
+        <item>Yape</item>
+        <item>Plin</item>
+        <item>Transferencia</item>
+    </string-array>
+    <string-array name="campos">
+        <item>Futbol</item>
+        <item>Basquetbol</item>
+        <item>Voleibol</item>
+        <item>Fronton</item>
+    </string-array>
+    <string name="prefs_file">com.example.reservasimei.PREFERENCE_FILE_KEY</string>
+</resources>

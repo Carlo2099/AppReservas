@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- En res/values/dimens.xml -->
+<resources>
+    <dimen name="card_cornerRadius">10dp</dimen>
+    <dimen name="card_padding">14dp</dimen>
+    <dimen name="card_margin_top">9dp</dimen>
+
+    <dimen name="card_margin_bottom">16dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="card_text_size">14sp</dimen>
+    <dimen name="card_image_height">110dp</dimen>
+    <color name="white_overlay">#FFFFFF</color>
+    <dimen name="card_content_padding">22dp</dimen>
+    <string name="nombreCampo">Campo deportivo</string>
+    <string name="userId">User ID</string>
+
+</resources>
